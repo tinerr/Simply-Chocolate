@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Simply Chocolate</title>
     <!-- FONTS -->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:ital@1&display=swap"
@@ -17,10 +17,12 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <footer>
+    <footer class="footer">
       <section class="footer-hero">
         <div class="container" footer-container>
-          <h1 class="hero-title">explore our new <br />chocolate first</h1>
+          <h1 class="footer-hero-title">
+            explore our new <br />chocolate first
+          </h1>
           <span class="footer-discription">
             From the velvety texture to the rich and complex flavor, our New
             Chocolate is a true indulgence that will leave you craving more.
@@ -34,25 +36,76 @@
         </div>
       </section>
 
-      <section>
+      <section class="footer-section">
         <div class="footer-box">
           <span class="footer-box-discription">
-            Chocolate a delicious <br />
-            cure for a bad day
+            Chocolate a delicious cure for a bad day
           </span>
-          <a>Contact us</a>
-          <ul class="footer-contacts-list list">
-            <li class="contacts-menu-item">
-              <a href="tel:+380684439426" class="contacts-menu-link link"
-                >+380(68)443-94-26</a
-              >
-            </li>
-            <li class="footer-contacts-item">
+          <div class="footer-contacts">
+            <span class="footer-heading">Contact us</span>
+            <ul class="footer-contacts-list list">
+              <li class="footer-contacts-item">
+                <a href="tel:+380684439426" class="footer-contacts-link link"
+                  >+380(68)443-94-26</a
+                >
+              </li>
+              <li class="footer-contacts-item">
+                <a
+                  href="mailto:simplychoc@gmail.com"
+                  class="footer-contacts-link link"
+                  >simplychoc@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <ul class="footer-social-list list">
+            <li class="footer-social-icon-item">
               <a
-                href="mailto:simplychoc@gmail.com"
-                class="contacts-menu-link link"
-                >simplychoc@gmail.com</a
+                class="social-icon-link link"
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+                aria-label="link to Instagram"
               >
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-icon-item">
+              <a
+                class="social-icon-link link"
+                href="https://www.twitter.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+                aria-label="link to Twitter"
+              >
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <hr class="horizontal-line" />
+
+        <div class="footer-menu">
+          <ul class="footer-menu-list list">
+            <li class="footer-menu-item">
+              <a href="#" class="footer-menu-link link">Home</a>
+            </li>
+            <li class="footer-menu-item">
+              <a href="#" class="footer-menu-link link">How it's made?</a>
+            </li>
+            <li class="footer-menu-item">
+              <a href="#" class="footer-menu-link link">Our products</a>
+            </li>
+            <li class="footer-menu-item">
+              <a href="#" class="footer-menu-link link">Top sellers</a>
+            </li>
+            <li class="footer-menu-item">
+              <a href="#" class="footer-menu-link link">Chocolate is loved</a>
             </li>
           </ul>
         </div>
